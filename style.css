@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    background: #F2F3F4;
+}
+img{
+    width:250px;
+    border-radius:5px;
+    margin-top:20px;
+}
+button{
+    width: 250px;
+    margin-top:15px;
+    height:30px;
+    background:#23A4FF;
+    color:white;
+    border:0px;
+    border-radius:5px;
+}
+#zagal{
+    font-size:25px;
+    color: #FE747B;
+    margin-top:10px;
+}
+
+.contact{
+    margin-top:30px;
+}
+
+select{
+    width:100px;
+    height:25px;
+    border-radius:5px;
+    border:3px soild #3599FC;
+    margin-top:20px;
+}
+select option{
+    background:#1E3A57;
+    border-radius:5px;
+    color:white;
+}
+input{
+    margin-top:10px;
+    width:238px;
+    height:20px;
+    border:2px solid #EBECED;
+    background: #DBDFE3;
+}
+textarea{
+    margin-top:20px;
+    border-radius:4px;
+}
+.sendb{
+    margin-top:100px;
+}

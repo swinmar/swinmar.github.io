@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header" >
+        <div class="za">
+             <p id="zagal" align="center">
+
+             </p>
+        </div>
+        <div class="tovar">
+             <div class="imgtv1">
+           <p align="center">
+               <img src="img/photo_2021-05-24_18-42-35.jpg">
+               <p align="center">
+                   name:Pasha  sdfsfaawef 
+                   sldfkjslfkjs lskdjflskjflksdjflssdlfkj
+               </p>
+             <br>
+               <p align="center">
+                <button onclick="zakaz(1)">ЗАКАЗАТЬ 10$</button>
+               </p>
+           </p>
+           <p align="center">
+              <img src="img/photo_2021-05-24_18-42-40.jpg">
+              <br>
+             <p align="center">
+                 name:Tesha sdfadfsaf
+                 afsdfsdfsd sdfsdkfjhsdfkjhsdfkjhs
+             </p>
+             <p align="center">
+                <button onclick="zakaz(2)">ЗАКАЗАТЬ 20$</button>
+             </p>
+           </p>
+           <p align="center">
+            <img src="img/photo_2021-05-24_18-42-44.jpg">
+            <br>
+           <p align="center">
+               name:chmo sdfadfsaf
+               afsdfsdfsd sdfsdkfjhsdfkjhsdfkjhs
+           </p>
+           <p align="center">
+              <button onclick="zakaz(3)">ЗАКАЗАТЬ 200$</button>
+           </p>
+         </p>
+
+
+
+             </div>
+        </div>
+        <div class="contact">
+            <p align="center">
+                <a href="https://t.me/I_love_yourself_999">
+                    Telegram
+                </a>
+            </p>
+        </div>
+       
+    </div>
+    <div class="sendb" style="display:none;">
+        <p align="center" id="name">
+          
+        </p>
+        <p align="center">
+            количество  
+            <select name="col" id="select">
+          <option value="3">3 штуки</option>
+          <option value="6">6 штуки</option>
+          <option value="10">10 штуки</option>
+          <option value="15">15 штуки</option>
+          <option value="20">20 штуки</option>
+      </select>
+
+      </p>
+      <p align="center" style="margin-top: 10px;">
+          <input type="email" id="email" placeholder="Email" autocomplete="off">
+          <br>
+          <input type="text" id="telephone" placeholder="Thelepnoe number" autocomplete="off">
+          <br>
+          <textarea name="message" id="message" cols="33" rows="7"></textarea>
+          <button onclick="sendd()">SEND</button>
+      </p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
